@@ -1,0 +1,43 @@
+﻿Our group created our chat device to satisfy the desires of internal group collaboration with the aid of supplying a reliable and comfortable verbal exchange platform. This system's design and implementation required careful attention of a diffusion of technical issues as well as the incorporation of attempted-and-real techniques from dependable resources.
+
+
+We regarded to James F. Kurose and Keith W. Ross's "laptop Networking: A top-Down technique" for idea on essential ideas in community programming as well as insights into socket programming and community verbal exchange protocols. This book turned into a awesome assist in comprehending the essential ideas behind facts transfer over networks.
+
+
+We consulted William Stallings' "Cryptography and network safety: standards and Practices" so that you can address the trouble of at ease conversation. This widespread resource guided our implementation of encryption mechanisms to comfy chat messages the use of the PyCryptodome library. It covered encryption algorithms, key control, and comfy communication protocols in detail.
+
+
+Our chat device's implementation was additionally stronger through the beneficial on-line tutorials and examples. We have been able to get useful data and code samples to guide our development manner from websites like real Python and GeeksforGeeks, which supplied tutorials and articles on Python socket programming, JSON serialization, and cryptography strategies using PyCryptodome.
+
+
+ensuring compatibility among encryption libraries, gracefully handling connection errors, controlling concurrency inside the chat responder aspect, and optimizing network aid usage had been some of the challenges confronted at some stage in the implementation section.
+
+
+We executed significant trying out, iterated improvement, and consulted with seasoned builders to overcome these barriers. The Python documentation, network-contributed tutorials, and on line forums like Stack Overflow presented useful answers and troubleshooting recommendation for commonplace implementation pitfalls.
+
+
+To sum up, our chat system became evolved using a aggregate of records from reliable resources, real-world examples from on-line tutorials, and cooperative hassle-fixing the various individuals of our improvement group. through the utility of tried-and-proper techniques and the direct resolution of unique technical issues, we have been capable of build a strong and expandable communication device that glad the necessities of our institution.
+
+
+To show a greater clean chat conversation flow amongst a greater wide variety of customers, we've also included two opportunity documents, a client and a server. those documents provide expanded scalability and capability for conditions that need excessive degree person interplay.
+
+
+Kerim:
+Set up the server to listen for incoming connections.
+Implemented the Diffie-Hellman algorithm for key exchange.
+Encrypted and decrypted messages using DES.
+Managed the broadcasting of messages to all clients.
+Tested using Wireshark.
+
+
+Jasim:
+Developed the client logic to connect to the server.
+Implemented the ability for the client to change nicknames.
+Added command handling (who is online, disconnect).
+Ensured messages were encrypted before sending and decrypted upon receiving.
+
+
+Aarifah:
+Designed the client prompts and interactions to enhance user experience.
+Implemented the chat log feature, saving all chats in "chat_log.txt".
+Assisted in extensive testing and troubleshooting.
